@@ -34,7 +34,6 @@ function App() {
       
     }
   }
-  console.log(course);
 
   return (
     <>
