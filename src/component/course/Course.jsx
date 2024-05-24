@@ -2,7 +2,7 @@ import { FiDollarSign } from "react-icons/fi";
 import { IoBookOutline } from "react-icons/io5";
 
 
-const Course = ({course}) => {
+const Course = ({course,handleclk}) => {
     const {image_url,credit_time,course_title,course_description,price} = course;
     return (
         <div className="p-4 bg-white rounded-md">
@@ -15,8 +15,8 @@ const Course = ({course}) => {
                 <p className="flex items-center "><FiDollarSign className="text-2xl" /> <span>Price: {price}</span></p>
                 <p className="flex items-center gap-2"><IoBookOutline className="text-2xl" /> <span>Credit : {credit_time}hr</span> </p>
             </div>
-            <div className="flex justify-center items-center">
-                <button className="bg-blue-500 px-8 py-2 rounded-2xl text-white ">Select</button>
+            <div className="flex justify-center items-center ">
+                <button onClick={()=>handleclk(course)} className="bg-blue-500 px-8 w-10/12 mt-2 font-semibold  py-2 rounded-2xl text-white ">Select</button>
             </div>
         </div>
     );
