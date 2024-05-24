@@ -3,8 +3,8 @@ import Title from "../title/Title";
 
 const Calculation = ({course,left,totaltime}) => {
     return (
-        <div className="bg-white p-4 rounded-xl">
-            <h1 className="text-2xl font-bold text-blue-500">Credit Hour Remaining {left} hr</h1>
+        <div className="bg-white h-2/3 p-4 rounded-xl">
+            <h1 className="text-2xl font-bold text-blue-500">Credit Remaining {left} hr</h1>
             <hr className="my-6" />
             <div>
                 <h1 className="text-2xl font-bold my-4">Course Name </h1>

@@ -10,17 +10,25 @@ function App() {
 
   const[left , timeLeft] = useState(20);
 
-  const[totaltime, setTotalTime] = useState(0)
+  const[totaltime, setTotalTime] = useState(0);
   
   const handleclk = (cTitle)=>{
     if(course.includes(cTitle)){
       setCourse([...course]);
-      return alert("can not add duplicate items")
+      return alert("can not add duplicate items");
     }
     else{
-      setCourse([...course,cTitle]);
-      timeLeft(left-cTitle.credit_time)
-      setTotalTime(totaltime+cTitle.credit_time)
+      let ltime = left-cTitle.credit_time;
+      
+      if( ltime >= 0 ){
+        timeLeft(left-cTitle.credit_time);
+        setTotalTime(totaltime+cTitle.credit_time);
+        setCourse([...course,cTitle]);
+      }
+      else{
+        alert("Your total credit is 20 ");
+      }
+      
     }
   }
 
