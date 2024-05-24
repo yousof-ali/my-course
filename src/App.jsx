@@ -1,14 +1,20 @@
 import './App.css'
+import Calculation from './component/calculation/Calculation'
+import Courses from './component/courses/Courses'
 import Header from './component/header/Header'
 
 function App() {
   return (
     <>
-      <header className='my-4'>
+      <header>
         <Header></Header>
       </header>
-      <h1>Vite + React</h1>
-      <h2 className='text-4xl'>hello</h2>
+      <main>
+        <div className='flex flex-col md:flex-row my-8 container mx-auto'>
+           <Courses></Courses>
+           <Calculation></Calculation>
+        </div>
+      </main>
       
     </>
   )
