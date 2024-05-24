@@ -1,7 +1,7 @@
 import Title from "../title/Title";
 
 
-const Calculation = ({course,left,totaltime}) => {
+const Calculation = ({course,left,totaltime,price}) => {
     return (
         <div className="bg-white h-2/3 p-4 rounded-xl">
             <h1 className="text-2xl font-bold text-blue-500">Credit Remaining {left} hr</h1>
@@ -14,6 +14,8 @@ const Calculation = ({course,left,totaltime}) => {
             </div>
             <hr className="my-6" />
             <h2 className="text-2xl font-semibold" > Total Credit Hour : {totaltime} hr</h2>
+            <hr className="my-6" />
+            <h2 className="text-2xl font-semibold">Total Price : $ {price}</h2>
         </div>
     );
 };

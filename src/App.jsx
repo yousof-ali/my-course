@@ -11,6 +11,8 @@ function App() {
   const[left , timeLeft] = useState(20);
 
   const[totaltime, setTotalTime] = useState(0);
+
+  const[price,setPrice]=useState(0);
   
   const handleclk = (cTitle)=>{
     if(course.includes(cTitle)){
@@ -24,13 +26,15 @@ function App() {
         timeLeft(left-cTitle.credit_time);
         setTotalTime(totaltime+cTitle.credit_time);
         setCourse([...course,cTitle]);
+        setPrice(price+cTitle.price)
       }
       else{
-        alert("Your total credit is 20 ");
+        alert("Your total credit is more than 20 ");
       }
       
     }
   }
+  console.log(course);
 
   return (
     <>
@@ -40,7 +44,7 @@ function App() {
       <main>
         <div className='flex flex-col md:flex-row my-8 container mx-auto gap-6'>
            <Courses handleclk={handleclk}></Courses>
-           <Calculation course={course} left={left} totaltime={totaltime}></Calculation>
+           <Calculation course={course} left={left} totaltime={totaltime} price={price}></Calculation>
         </div>
       </main>
       
