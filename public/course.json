@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "course_title": "Introduction to C Programming",
+      "course_description": "Learn the basics of C programming, including syntax, data types, and control structures.",
+      "price": 15000,
+      "credit_time": 1,
+      "image_url": "https://i.ibb.co/dt09xDM/ed76e150fd3c97eb101b16de4bcc85e9.webp"
+    },
+    {
+      "id": 2,
+      "course_title": "Introduction to Algorithms",
+      "course_description": "A comprehensive course on algorithms using JavaScript, covering front-end and back-end development.",
+      "price": 25000,
+      "credit_time": 2,
+      "image_url": "https://i.ibb.co/5T366k5/algorithm-update-isometric-landing-programming-free-vector.jpg"
+    },
+    {
+      "id": 3,
+      "course_title": "Introduction to C++ for DSA",
+      "course_description": "Master data analysis techniques using c++ & DSA, including pivot tables, charts, and data visualization.",
+      "price": 10000,
+      "credit_time": 10,
+      "image_url": "https://i.ibb.co/rQGyN0J/c.jpg"
+    },
+    {
+      "id": 4,
+      "course_title": "Basic Data Structures",
+      "course_description": "Explore the fundamentals of data structures, including SEO, content marketing, and social media strategies.",
+      "price": 35000,
+      "credit_time": 5,
+      "image_url": "https://i.ibb.co/cwLKS4x/maxresdefault.jpg"
+    },
+    {
+      "id": 5,
+      "course_title": "Introduction to OOP Python",
+      "course_description": "An introductory course on machine learning concepts, algorithms, and applications using Python.",
+      "price": 19000,
+      "credit_time": 5,
+      "image_url": "https://i.ibb.co/2js7pfH/Python-1.png"
+    },
+    {
+      "id": 6,
+      "course_title": "Software Engineering",
+      "course_description": "Learn the fundamental principles of software engineering, testing, automation, and layout techniques.",
+      "price": 23000,
+      "credit_time": 2,
+      "image_url": "https://i.ibb.co/Fb9xnCr/software.jpg"
+    },
+    {
+      "id": 7,
+      "course_title": "AWS, Cloud Computing",
+      "course_description": "Gain essential skills in project management, including planning, AWS, CLoud computing, and monitoring of projects.",
+      "price": 35000,
+      "credit_time": 5,
+      "image_url": "https://i.ibb.co/kDnYYCp/thailand-to-receive-8-5-billion-worth-of-investment-from-aws-google-microsoft.webp"
+    },
+    {
+      "id": 8,
+      "course_title": "Database (MySQL)",
+      "course_description": "An introduction to Database, including threat analysis, risk management, and security protocols.",
+      "price": 19000,
+      "credit_time": 5,
+      "image_url": "https://i.ibb.co/TKDq9XF/1-X-BVlu-Ull1-JRXp-qx-Ub8-Sg.png"
+    },
+    {
+      "id": 9,
+      "course_title": "Problem-Solving Part",
+      "course_description": "Learn how to problem-solving perform business analytics using R, statistical analysis, and visualization.",
+      "price": 23000,
+      "credit_time": 2,
+      "image_url": "https://i.ibb.co/xHJvPkd/problem-solution.jpg"
+    }
+    
+  ]
+  
